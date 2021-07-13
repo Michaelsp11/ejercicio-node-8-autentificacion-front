@@ -1,0 +1,9 @@
+.navegacion a:hover {
+  text-decoration: none;
+}
+.cabecera .navegacion .actual {
+  font-weight: bold;
+}
+.navegacion li a {
+  color: #000;
+}
