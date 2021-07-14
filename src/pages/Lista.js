@@ -7,11 +7,11 @@ export const Lista = (props) => {
         {datos.length === 0 ? (
           <li>No hay items para mostrar de este usuario</li>
         ) : (
-          datos.map((item) => (
-            <>
-              <li>Nombre: {item.nombre}</li>
-              <li>Precio: {item.precio}€</li>
-            </>
+          datos.map((item, i) => (
+            <li key={i}>
+              <p>Nombre: {item.nombre}</p>
+              <p>Precio: {item.precio}€</p>
+            </li>
           ))
         )}
       </ul>
