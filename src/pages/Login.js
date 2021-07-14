@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
 export const Login = (props) => {
   const { error, loguearse } = props;
   const datosIniciales = {
